@@ -1,6 +1,6 @@
 ;(function (m) {
   function isUrl(input) {
-    return /$https?:\/\//.test(input)
+    return /^https?:\/\//.test(input)
   }
 
   function isRepo(input) {
