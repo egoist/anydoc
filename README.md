@@ -16,3 +16,4 @@ If you want to preview more docs, here're examlpes for other great projects:
 - [sindresorhus/xo](https://egoistian.com/anydoc/#/?repo=sindresorhus/xo)
 - [NekR/offline-plugin](https://egoistian.com/anydoc/#/?repo=NekR/offline-plugin)
 - [ryanmcdermott/clean-code-javascript](https://egoistian.com/anydoc/#/?repo=ryanmcdermott%2Fclean-code-javascript)
+- [agis-/git-style-guide](https://egoistian.com/anydoc/#/?repo=agis-%2Fgit-style-guide)
