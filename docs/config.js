@@ -9,7 +9,7 @@
 
   function anyDoc(ctx) {
     ctx.router.beforeEach(function (to, from, next) {
-      var repo = to.query.repo
+      var repo = to.query.repo || 'egoist/anydoc'
       var url = isUrl(repo) ? 
         repo :
         'https://raw.githubusercontent.com/' + repo + '/master/README.md'
