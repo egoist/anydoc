@@ -6,6 +6,8 @@ For example, the [airbnb javascript styleguide](https://github.com/airbnb/javasc
 
 You can visit https://egoistian.com/anydoc/#/?repo=airbnb/javascript instead to have a better reading experience.
 
+You can also use a raw markdown file, for example: https://egoistian.com/anydoc/#/?repo=https://raw.githubusercontent.com/vuejs/vue-cli/master/docs/build.md
+
 Cheers. 🍻
 
 ## Some other docs
