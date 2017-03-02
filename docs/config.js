@@ -29,7 +29,7 @@
 
   function search(ctx) {
     ctx.registerComponent('sidebar:start', {
-      template: '<input @change="handleChange" class="search" placeholder="owner/repo" />',
+      template: '<input @change="handleChange" class="search inner-x" placeholder="owner/repo" />',
       methods: {
         handleChange: function (e) {
           var repo = e.target.value
