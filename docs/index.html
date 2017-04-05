@@ -24,7 +24,10 @@
 <body>
   <!-- don't remove this part start -->
   <div id="app"></div>
-  <script>
+  <script src="https://unpkg.com/docute@latest/dist/docute.js"></script>
+  <!-- livereload script placeholder -->
+  <!-- don't remove this part end -->
+    <script>
     ;(function (m) {
       function isUrl(input) {
         return /^https?:\/\//.test(input)
@@ -68,17 +71,14 @@
         })
       }
 
-      m.$config = {
+      docute.init({
         debug: true,
         plugins: [
           anyDoc,
           search
         ]
-      }
+      })
     })(self);
   </script>
-  <script src="https://unpkg.com/docute@latest/dist/docute.js"></script>
-  <!-- livereload script placeholder -->
-  <!-- don't remove this part end -->
 </body>
 </html>
